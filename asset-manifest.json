@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Translator-Forntend/tree/main/fapp/static/css/main.6a3d79f3.css",
-    "main.js": "/Translator-Forntend/tree/main/fapp/static/js/main.d34c7576.js",
-    "static/js/453.122f7282.chunk.js": "/Translator-Forntend/tree/main/fapp/static/js/453.122f7282.chunk.js",
-    "index.html": "/Translator-Forntend/tree/main/fapp/index.html",
-    "main.6a3d79f3.css.map": "/Translator-Forntend/tree/main/fapp/static/css/main.6a3d79f3.css.map",
-    "main.d34c7576.js.map": "/Translator-Forntend/tree/main/fapp/static/js/main.d34c7576.js.map",
-    "453.122f7282.chunk.js.map": "/Translator-Forntend/tree/main/fapp/static/js/453.122f7282.chunk.js.map"
+    "main.css": "/Translator-Forntend/static/css/main.6a3d79f3.css",
+    "main.js": "/Translator-Forntend/static/js/main.33ae7056.js",
+    "static/js/453.122f7282.chunk.js": "/Translator-Forntend/static/js/453.122f7282.chunk.js",
+    "index.html": "/Translator-Forntend/index.html",
+    "main.6a3d79f3.css.map": "/Translator-Forntend/static/css/main.6a3d79f3.css.map",
+    "main.33ae7056.js.map": "/Translator-Forntend/static/js/main.33ae7056.js.map",
+    "453.122f7282.chunk.js.map": "/Translator-Forntend/static/js/453.122f7282.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a3d79f3.css",
-    "static/js/main.d34c7576.js"
+    "static/js/main.33ae7056.js"
   ]
 }
