@@ -15,7 +15,7 @@ export default function Translatesec() {
     e.preventDefault();
 
     try{
-      const response = await axios.post ("http://localhost:000/translate", {text, source_language, target_language});
+      const response = await axios.post ("http://localhost:8000/translate", {text, source_language, target_language});
        
       setTranslation(response.data.translated_text)
 
