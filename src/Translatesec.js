@@ -16,7 +16,7 @@ export default function Translatesec() {
     try{
       console.log("In try");
       // give request to api
-      const response = await axios.post ("http://localhost:8080/translate", {text, targetLanguage});
+      const response = await axios.post ("https://express-backend-two.vercel.app/translate", {text, targetLanguage});
        
       setTranslation(response.data.translatedText)
 
