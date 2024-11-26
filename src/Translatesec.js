@@ -50,7 +50,7 @@ export default function Translatesec() {
          <textarea class="textarea" rows="5" cols="50"placeholder="Translated text" id="Textarea" value={translation}></textarea>
         
       </div>
-       {/* submit button*/}
+       {/* submit button */}
       <button type="submit" className='subbtn'>Translate</button>
     </form>
   </div>
