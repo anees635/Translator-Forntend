@@ -3,10 +3,10 @@ import axios from 'axios';
 import './Translate.css'
 
 export default function Translatesec() {
-  // variables
+  // variables / hooks
   const [text, settext] = useState("");
-  const targetLanguage = 'Urdu';
-  const [translation, setTranslation] = useState("")
+  const targetLanguage = 'Urdu'; // set language 
+  const [translation, setTranslation] = useState("")   // set response in translation hook
 
   // handle the submit of user 
   // give request to api
@@ -14,9 +14,9 @@ export default function Translatesec() {
     e.preventDefault();
     
     try{
-      console.log("In try");
+  
       // give request to api
-      const response = await axios.post ("https://express-backend-two.vercel.app/translate", {text, targetLanguage});
+      const response = await axios.post ("http://localhost:8080/translate", {text, targetLanguage});
        
       setTranslation(response.data.translatedText)
 
@@ -30,16 +30,16 @@ export default function Translatesec() {
   <div>
       {/* header */}
 
-      <h2>Translate Text from English to Urdu</h2>
+      <p className='header2'>Translate Text from English to Urdu</p>
 
       {/* input field */}
 
-
-    <form onSubmit={handlesubmit}>
+     
+    <form onSubmit={handlesubmit}>   {/* form  and call handlesubmit to send request to api*/}
       <div className="flexcontainer">
        <label for="Textarea">English</label>
-
-       <textarea class="textarea" onChange={(e)=>settext(e.target.value)} rows="5" cols="50"placeholder="Enter text in english" id="Textarea" value={text}></textarea>
+        {/* using textarea */}
+       <textarea class="textarea" onChange={(e)=>settext(e.target.value)} placeholder="Enter text in english" id="Textarea" value={text}></textarea>
        
       
        
@@ -47,11 +47,13 @@ export default function Translatesec() {
       <div className="flexcontainer">
          <label for="Textarea">Urdu</label>
 
-         <textarea class="textarea" rows="5" cols="50"placeholder="Translated text" id="Textarea" value={translation}></textarea>
+         <textarea class="textarea" placeholder="Translated text" id="Textarea" value={translation}></textarea>
         
       </div>
        {/* submit button*/}
-      <button type="submit" className='subbtn'>Translate</button>
+       <div>
+      <button type="submit" className='subbtn '>Translate</button>
+      </div>
     </form>
   </div>
   )
