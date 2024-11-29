@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import axios from 'axios';
 import './Translate.css'
 
@@ -7,7 +7,13 @@ export default function Translatesec() {
   const [text, settext] = useState("");
   const targetLanguage = 'Urdu'; // set language 
   const [translation, setTranslation] = useState("")   // set response in translation hook
-
+  useEffect(()=>{
+      if(text === "")
+      {
+           setTranslation("");
+      }
+  },[text])
+  
   // handle the submit of user 
   // give request to api
   const handlesubmit = async (e)=>{
