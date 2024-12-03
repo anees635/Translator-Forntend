@@ -73,13 +73,42 @@ The project **features** a React-based frontend for user interaction, an Express
   - body-praser
   - urlencoded
     
- Use the GroqColud API key that we make at the first step for the working of model
+ Use the GroqColud API key that we make at the first step for the working of the model.
   - Create **.env** file.
-  - Inside this file use api key as environment variable.
-  - Load environment variable using dotenv package.
+  - Inside this file use the API key as the environment variable.
+  - Load environment variable using the dotenv package.
   - Use load environment variable using:
       - *process.env.name_of_variable*
        
- Run the server to check that AI model respond or not.
-   - node index.js (index is the name of file)
+ Run the server to check whether the AI model responds or not.
+   - node index.js (index is the name of file).
 
+ Create folder named Express Backend and push this repository to github using github desktop.
+
+### API Backend(Express)
+ Create a folder named API Backend.
+  - install express after creating package.json.
+  - Packages and middleware:
+       - body-praser
+       - axios
+       - cors
+       - urlencoded
+
+ Listen api on 8080 port and also used *process.env.port* (in case of deploy) .
+
+ Create post method to accept the data and request .
+  - Use axios to send request to backend.
+  - Send the response of AI model to frontend as response.
+  - Handle errors in post method.
+
+ Test API using postman to cheack whether the API working properly or not.
+ 
+ Push this folder as repository named API backend to github.
+ 
+### Frontend(React)
+
+ 
+
+ 
+ 
+ 
