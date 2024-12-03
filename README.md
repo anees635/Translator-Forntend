@@ -134,6 +134,33 @@ The project **features** a React-based frontend for user interaction, an Express
  Give the text to input form and handle the submit by pressing the translate button.
 
 
+## Push to Github
+
+   Create a folder Translator Project .
+    - inside this we have backend and frontend as separate folder
+
+   Push this folder as repositry to Github using Github desktop
+
+
+## Deploy on Vercel
+  We have express backend, API backend, Frontend as seperate repo at github
+
+  First, create account on vercel using github
+
+  At each project install vercel using following command:
+   - npm install vercel
+
+  Then, do vercel login
+   - vercel login
+
+  Deploy each folder separately using the following command:
+   - vercel
+
+  Check the vercel dashbord for you project.
+
+  **Note:**
+    For express we have to create vercel.json that help to deploy project.
+
 
  
  
