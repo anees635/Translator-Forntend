@@ -106,8 +106,34 @@ The project **features** a React-based frontend for user interaction, an Express
  Push this folder as repository named API backend to github.
  
 ### Frontend
+ We use REACT framework for making the frotend
 
- 
+ Create react app using following command:
+   - npm create-react-app fapp  (here fapp name of app)
+
+ In src folder, at the App.js 
+  - Give header to app
+  - Use translatesec as component
+
+ At the translatesec.js 
+  - Use to form one for input the text, the other is to display the text.
+  - When input form is submit handle submit function is called to send request to API using axios package.
+  - Use translatesec.css for making the translate section responsive.
+
+ Change the favicon for the app.
+
+ Upload this folder as repository named translator frontend at github
+
+## Locally Run
+
+ Run all servers to check our project.
+   - Run backend server (*node index.js*)
+   - Run API server (*node api.js*)
+   - Run frontend (*npm start*)
+
+ Give the text to input form and handle the submit by pressing the translate button.
+
+
 
  
  
