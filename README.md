@@ -136,8 +136,8 @@ The project **features** a React-based frontend for user interaction, an Express
 
 ## Push to Github
 
-   Create a folder Translator Project .
-    - inside this we have backend and frontend as separate folder.
+   Create a folder Translator Project.
+     - inside this we have backend and frontend as separate folder.
 
    Push this folder as repositry to Github using Github desktop.
 
@@ -157,6 +157,8 @@ The project **features** a React-based frontend for user interaction, an Express
    - vercel
 
   Check the vercel dashbord for you project.
+
+  Change the link to send request in frontend post request as well as in API backend with the deployed server link.
   
   Verify the deployment links provided by Vercel.
   
