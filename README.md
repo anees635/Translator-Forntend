@@ -9,7 +9,7 @@ A **Language Translator Application** built using **React**, **Express.js**, and
 3. [Getting Started](#getting-started)
     - [Express Backend](#express-backend)
     - [API Backend](#API-Backend)
-    - [Frontend(React)](#Frontend(React))
+    - [Frontend(React)](#Frontend)
 4. [Locally Run](#locally-run)
 5. [Push to GitHub](#push-to-github)
 6. [Deploy on Vercel](#deploy-on-vercel)
@@ -105,7 +105,7 @@ The project **features** a React-based frontend for user interaction, an Express
  
  Push this folder as repository named API backend to github.
  
-### Frontend(React)
+### Frontend
 
  
 
