@@ -9,7 +9,7 @@ A **Language Translator Application** built using **React**, **Express.js**, and
 3. [Getting Started](#getting-started)
     - [Express Backend](#express-backend)
     - [API Backend](#API-Backend)
-    - [Frontend(React)](#frontend(React))
+    - [Frontend(React)](#Frontend(React))
 4. [Locally Run](#locally-run)
 5. [Push to GitHub](#push-to-github)
 6. [Deploy on Vercel](#deploy-on-vercel)
